@@ -1,18 +1,16 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
 PREFIX="$1"
 
 SRC_DIR="./obj"
-SRC="$SRC_DIR/$PREFIX.o"
+EXE="$SRC_DIR/$PREFIX.o"
 
 IO_DIR="./all_data/junior_data/$PREFIX"
 
 function compareIO() 
 {
-	#echo -e "in:$1\tout:$2"
-	#echo "$SRC"
-	printf "Testing $1\n"
-	diff <("$SRC" < "$1") "$2"
+	printf "Testing %s\n" "$1"
+	"$EXE" < "$1" | diff - "$2"
 }
 
 for file in "$IO_DIR"/"$PREFIX".*.in
