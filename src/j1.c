@@ -12,11 +12,11 @@ int main(int argc, char **argv)
 
 	if (score >= 10)
 	{
-		puts("happy");
+		printf("happy");
 	}
 	else 
 	{
-		puts("sad");
+		printf("sad");
 	}
 	return 0;
 }

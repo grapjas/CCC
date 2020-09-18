@@ -23,11 +23,11 @@ int main(int argc, char **argv)
 		}
 		if (strstr(string1, string2) != NULL) 
 		{
-			printf("yes");
+			printf("yes\n");
 			exit(0);
 		}
 	}
-	printf("no");
+	printf("no\n");
 }
 
 void swap(char *a, char *b)
