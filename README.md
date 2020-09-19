@@ -1,3 +1,2 @@
-Solution of the problems given at https://cemc.uwaterloo.ca/contests/computing/2020/index.html
+Problems and test data can be downloaded at https://cemc.uwaterloo.ca/contests/past_contests.html#ccc
 
-Test data can be downloaded at: https://cemc.uwaterloo.ca/contests/computing/2020/ccc/all_data.zip
