@@ -5,7 +5,7 @@ PREFIX="$1"
 SRC_DIR="./obj"
 EXE="$SRC_DIR/$PREFIX.o"
 
-IO_DIR="./all_data/junior_data/$PREFIX"
+IO_DIR="./test_data/2019/$PREFIX"
 
 function compareIO() 
 {

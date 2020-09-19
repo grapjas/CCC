@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall -lm
 
 # Source folder with C files
-SRC    := src
+SRC    := src/2019
 # All c files to build
 SRCS    := $(wildcard $(SRC)/*.c)
 
